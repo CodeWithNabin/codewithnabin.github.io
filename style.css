@@ -86,3 +86,82 @@ body {
     width: 30px;
     filter: invert(var(--invert));
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect img {
+    max-width: 100%;
+    width: auto;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    padding: 14em 0;
+}
+
+.cir {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.cir img {
+    width: 192px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.about h1 {
+    font-size: var(--sm);
+}
+
+#work {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#work > div {
+
+}
+
+#work > div h3 {
+
+}
+
+.blog,
+.project,
+.contact {
+
+}
+
+.blog {
+
+}
+
+.project {
+
+}
+
+.contact {
+
+}
+
+footer {
+
+}
+
+footer p {
+
+}
