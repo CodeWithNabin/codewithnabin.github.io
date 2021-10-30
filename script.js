@@ -17,7 +17,8 @@ function switchTheme() {
         document.querySelector("body").removeAttribute("data-theme", "dark");
         mode = "dark";
     }
-    if (mode === "undefined") {
-        mode = "light";
-    }
+}
+
+if (mode === "undefined") {
+    mode = "light";
 }
