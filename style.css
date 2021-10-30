@@ -129,39 +129,50 @@ section {
 
 #work {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-bottom: 5em;
 }
 
 #work > div {
-
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
 }
 
 #work > div h3 {
-
+    font-size: calc(var(--sm) / 1.5);
 }
 
 .blog,
 .project,
 .contact {
-
+    width: 100%;
+    height: 18em;
+    overflow: hidden;
+    border: 0.5px solid var(--primary-color);
 }
 
 .blog {
-
+    background: url(section-image-1.jpg) no-repeat center center/cover;
 }
 
 .project {
-
+    background: url(section-image-2.jpg) no-repeat center center/cover;
 }
 
 .contact {
-
+    background: url(section-image-3.jpg) no-repeat center center/cover;
 }
 
 footer {
-
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1.3em;
 }
 
 footer p {
-
+    width: 20vw;
+    margin: auto;
 }
