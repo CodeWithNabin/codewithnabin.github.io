@@ -1,4 +1,4 @@
-const mode = localStorage.getItem("mode");
+let mode = localStorage.getItem("mode");
 console.log(mode);
 
 function switchTheme() {
