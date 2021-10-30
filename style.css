@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* custom variables */
+:root {
+    --primary-color: #031319;
+    --secondary-color: #fefefe;
+    --sm: 2em;
+    --color1: #004aad;
+    --color2: #ee0823;
+    --color3: #23ad00;
+    --color4: #009c95;
+    --invert: 100%;
+}
+
+[data-theme="dark"] {
+    --primary-color: #fefefe;
+    --secondary-color: #031319;
+    --color1: #004aad;
+    --color2: #ee0823;
+    --color3: #23ad00;
+    --color4: #009c95;
+    --invert: 0%;
+}
+
+body {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: var(--secondary-color);
+}
+
+.logo {
+    max-width: 48px;
+    margin: auto;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+    filter: invert(var(--invert));
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    padding: 15px 12px;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.navigation li a:is(:hover, :foucs) {
+    color: var(--color1);
+}
+
+.theme {
+    max-width: 30px;
+    width: auto;
+    margin: auto;
+    height: 30px;
+}
+
+#switch {
+    background: none;
+    height: inherit;
+    cursor: pointer;
+}
+
+#switch img {
+    width: 30px;
+    filter: invert(var(--invert));
+}
