@@ -176,3 +176,32 @@ footer p {
     width: 20vw;
     margin: auto;
 }
+
+/* utility classes */
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: calc(var(--sm) / 2);
+    font-weight: 500;
+}
+
+.danger-btn {
+    background-color: var(--color2);
+    color: var(--secondary-color);
+}
+
+.info-btn {
+    background-color: var(--color1);
+    color: var(--secondary-color);
+}
+
+.pro-btn {
+    background-color: var(--color3);
+    color: var(--secondary-color);
+}
+
+.my-btn {
+    background-color: var(--color4);
+    color: var(--secondary-color);
+}
