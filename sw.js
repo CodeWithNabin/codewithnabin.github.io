@@ -3,19 +3,19 @@ var VERSION = "version_01"; // Version of the off-line cache (change this value 
 var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [
   // Add URL you want to cache in this list.
-  "/", // If you have separate JS/CSS files,
-  "/index.html", // add path to those files here
-  "/assets/css/style.css",
-  "/assets/icons/moon-solid.svg",
-  "/assets/icons/sun-solid.svg",
-  "/assets/icons/android-chrome-512x512.png",
-  "/assets/images/cover.png",
-  "/assets/images/logo.png",
-  "/assets/images/profile.png",
-  "/assets/images/section-image-1.png",
-  "/assets/images/section-image-2.png",
-  "/assets/images/section-image-3.png",
-  "/assets/js/script.js",
+  "https://codewithnabin.github.io/", // If you have separate JS/CSS files,
+  "https://codewithnabin.github.io/index.html", // add path to those files here
+  "https://codewithnabin.github.io/assets/css/style.css",
+  "https://codewithnabin.github.io/assets/icons/moon-solid.svg",
+  "https://codewithnabin.github.io/assets/icons/sun-solid.svg",
+  "https://codewithnabin.github.io/assets/icons/android-chrome-512x512.png",
+  "https://codewithnabin.github.io/assets/images/cover.png",
+  "https://codewithnabin.github.io/assets/images/logo.png",
+  "https://codewithnabin.github.io/assets/images/profile.png",
+  "https://codewithnabin.github.io/assets/images/section-image-1.jpg",
+  "https://codewithnabin.github.io/assets/images/section-image-2.jpg",
+  "https://codewithnabin.github.io/assets/images/section-image-3.jpg",
+  "https://codewithnabin.github.io/assets/js/script.js",
 ];
 
 // Respond with cached resources
