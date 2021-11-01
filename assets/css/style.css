@@ -205,3 +205,12 @@ footer p {
     background-color: var(--color4);
     color: var(--secondary-color);
 }
+
+@media screen and (max-width: 530px) {
+    .about-us {
+        flex-direction: column;
+    }
+    .about h1 {
+        font-size: calc(var(--sm) / 1.5);
+    }
+}
