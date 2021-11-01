@@ -83,7 +83,8 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/assets/js/",
   "start_url": "https://codewithnabin.github.io/?id=pwa",
+  "orientation": "any",
   "categories": ["education"]
 }
