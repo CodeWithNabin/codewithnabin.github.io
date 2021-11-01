@@ -1,0 +1,25 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>CodeWithNabin</title>
+    <subtitle>Web developing tutorials</subtitle>
+    <link href="https://codewithnabin.github.io/feed.xml" rel="self"/>
+    <link href="https://codewithnabin.github.io"/>
+    <updated>2021-10-29T23:09:21Z</updated>
+    <id>https://codewithnabin.github.io/</id>
+    <author>
+        <name>CodeWithNabin</name>
+    </author>
+    <icon>logo.png</icon>
+    <logo>cover.png</logo>
+    <entry>
+        <title>            <!--Title goes here--></title>
+        <link href="https://codewithnabin.github.io/blog/"/>
+        <updated>            <!-- time--></updated>
+        <id>https://codewithnabin.github.io/blog/</id>
+        <content type="text/html" mode="escaped">
+            <!-- content goes here -->
+        </content>
+        <author>
+            <name>Author Name</name>
+        </author>
+    </entry>
+</feed>
