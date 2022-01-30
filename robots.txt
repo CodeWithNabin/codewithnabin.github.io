@@ -1,5 +1,4 @@
 User-agent: *
-Allow: /search
 Allow: /
 
 Sitemap: https://codewithnabin.github.io/sitemap.xml
